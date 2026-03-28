@@ -1,0 +1,50 @@
+.header {
+  background-color: white;
+  height: 40px;
+  border-bottom: 1px solid rgb(248, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-right: 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(11, 109, 189);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.landingImage {
+  padding-top: 20px;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  color: rgba(54, 53, 53, 0.925);
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: rgb(11, 109, 189);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
